@@ -26,7 +26,10 @@
         <form method="post">
             <p>帳號：<input type="text" name="acct"></p>
             <p>密碼：<input type="password" name="pass"></p>
-            <p><input type="submit" value="登入"></p>
+            <p>
+                <input type="submit" value="登入">
+                <input type="button" value="點我註冊" onclick="location.href='mysql_reg.php';">
+            </p>
         </form>
     </body>
 </html>

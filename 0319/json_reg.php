@@ -43,7 +43,10 @@
             <p>顯示名稱：<input type="text" name="name" placeholder="登入後的顯示名稱"></p>
             <p>密碼：<input type="password" name="pass1" placeholder="登入用的密碼"></p>
             <p>確認密碼：<input type="password" name="pass2" placeholder="確認兩次密碼要相同"></p>
-            <p><input type="submit" value="我要註冊"></p>
+            <p>
+                <input type="submit" value="我要註冊">
+                <input type="button" value="點我註冊" onclick="location.href='json_reg.php';">
+            </p>
         </form>
     </body>
 </html>
